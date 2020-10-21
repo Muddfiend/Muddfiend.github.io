@@ -1,0 +1,237 @@
+html,body {
+    background-color: #000;
+    color: rgb(218, 215, 210);
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+label {
+    padding: 15px;
+    font-size: 18px;
+}
+select {
+    font-size: 16px;
+    color: rgb(218, 215, 210);
+    background-color: rgb(68, 68, 68);
+}
+
+#title, #options, #buttonDiv, #stats {
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 15%;
+}
+
+#begin {
+    height: 35px;
+    width: 250px;
+    font-size: 1.1em;
+    font-weight: 100;
+    color: #2abb17;
+    background-color: rgb(119, 115, 115); /*#131594;*/
+}
+
+#begin:focus, #begin:hover {
+    color: #000;
+    background-color: #2abb17;
+}
+
+#content {
+    margin: 0 auto;
+    margin-top:  75px;
+}
+
+#gameInfo {
+    padding-top: 100px;
+    margin-left: 75px;
+    float: left;
+}
+
+#resetDiv {
+    text-align: center;
+    margin: 15px;
+}
+#reset {
+    font-size: 18px;
+    color: #000;
+    background-color: rgb(252, 240, 77);
+}
+#reset:hover, #reset:focus {
+    background-color: #2abb17;
+    border: #fff solid 1px;
+}
+
+#nextRound {
+    margin-top: 50px;
+    margin-left: 25px;
+    width: 150px;
+    height: 50px;
+    color: #000;
+    font-size: 18px;
+    background-color: #aa00ff;
+}
+#nextRound:focus, #nextRound:hover {
+    color: #000;
+    background-color: #25a114;
+    border: #fff solid 1px;
+}
+
+#cardsLayout {
+    float: left;
+}
+
+#playerCardBackground, #botCardBackground {
+    text-align: center;
+    width: 150px;
+    height: 225px;
+    margin-left: 35vw;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+#playerCard,#botCard {
+    width: 125px;
+    height: 185px;
+    margin: 8.5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    float: right;
+}
+
+#botCard {
+    margin-top: 16.5%;
+}
+
+#warzone {
+    padding-top: 75px;
+    width: 100%;
+    min-height: 250px;
+    display: none;
+    clear: both;
+    background-image: linear-gradient(#000,#992222,#000);
+}
+
+#warWrapper {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#warWinnerBannerDiv {
+    clear: right;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+#warWinnerBannerDiv,#exitWar {
+    width: 96%;
+}
+
+#warWinnerBanner {
+    margin: 0 auto;
+    padding-right: 5%;
+}
+
+#continue {
+    /*text-align: center;*/
+    font-size: 18px;
+    background-color: green;
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}
+
+#playerWarCards {
+    float: right;
+    display: inline-flex;
+    width: 49%;
+    height: auto;
+}
+#botWarCards {
+    /*padding-left: 2%;*/
+    margin: 0 auto;
+    float: left;
+    display: inline-flex;
+    width: 49%;
+    height: auto;
+}
+#playerCard4 {
+    margin-left: 25px;
+}
+#botCard4 {
+    margin-right: 25px;
+}
+
+#cardIdPlayer {
+    margin-left: 10px;
+}
+#cardIdBot {
+    margin-right: 10px;
+}
+
+.extraCard {
+    width: 125px;
+    height: 185px;
+    /*margin: 8.5%;*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.extraBotCard {
+    width: 125px;
+    height: 185px;
+    /*margin: 8.5%;*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    /*margin-top: 16.5%;*/
+}
+
+.hide {
+    display: none;
+}
+
+.disable {
+    pointer-events: none;
+    background: #ccc !important;
+    color: #000 !important;
+}
+.disable:hover, .disable:focus {
+    background: #ccc !important;    
+    color: #000 !important;
+}
+
+.blueBack {
+    background-image: url('/images/cards/PNG/blue_back.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.grayBack {
+    background-image: url('/images/cards/PNG/gray_back.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.greenBack {
+    background-image: url('/images/cards/PNG/green_back.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.purpleBack {
+    background-image: url('/images/cards/PNG/purple_back.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.redBack {
+    background-image: url('/images/cards/PNG/red_back.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.yellowBack {
+    background-image: url('/images/cards/PNG/yellow_back.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
