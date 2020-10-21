@@ -261,16 +261,16 @@ function checkCards() {
         }
     }
     if(playerRoster.length + playerSpoils.length == 52) {
-        setTimeout( () => {alert('Player Wins');}, 5000);
         selectors.$nextRound.addClass('disable');
         selectors.$continue.addClass('disable');
         selectors.$resetDiv.removeClass('hide');
+        setTimeout( () => {alert('Player Wins');}, 5000);
         //location.reload();
     } else if(botRoster.length + botSpoils.length == 52) {
-        setTimeout( () => {alert('Bot Wins');}, 5000);
         selectors.$nextRound.addClass('disable');
         selectors.$continue.addClass('disable');
         selectors.$resetDiv.removeClass('hide');
+        setTimeout( () => {alert('Bot Wins');}, 5000);
         //location.reload();
     }
 }
