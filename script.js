@@ -433,7 +433,7 @@ function war(pInd,bInd) {
         }
     }
     //
-    console.log('player:');console.log(pWager); console.log(pWagerDeck);
+    console.log('player:');console.log(pWager);console.log(pWagerDeck);
     console.log('bot:');console.log(bWager);console.log(bWagerDeck);
     selectors.$nextRound.addClass('disable');
     selectors.$warzone.css('display','block');
